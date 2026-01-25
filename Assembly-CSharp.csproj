@@ -51,6 +51,7 @@
     <Compile Include="Assets\Scenes\Space Shooter Template FREE\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scenes\Space Shooter Template FREE\Scripts\PoolingController.cs" />
     <Compile Include="Assets\Scenes\Space Shooter Template FREE\Scripts\Player.cs" />
+    <Compile Include="Assets\PlayerShootingg.cs" />
     <Compile Include="Assets\Bullet.cs" />
     <Compile Include="Assets\Scenes\Space Shooter Template FREE\Scripts\Projectile.cs" />
     <Compile Include="Assets\Scenes\Space Shooter Template FREE\Scripts\DirectMoving.cs" />
