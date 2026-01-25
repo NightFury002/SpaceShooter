@@ -2,15 +2,14 @@ using UnityEngine;
 
 public class PlayerShootingg : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+public GameObject bulletPrefab;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+void Update()
+{
+if (Input.GetMouseButtonDown(0))
+{
+Instantiate(bulletPrefab, transform.position,
+transform.rotation);
+}
+}
 }
