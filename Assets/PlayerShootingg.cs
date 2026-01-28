@@ -27,6 +27,6 @@ public class PlayerShootingg : MonoBehaviour
 
     private void ShootBullet()
     {
-        var bullet = Instantiate(bulletPrefabs, transform.position + bulletOffset, transform.rotation);
+        var bullet = Instantiate(bulletPrefabs, transform.TransformPoint(bulletOffset), transform.rotation);
     }
 }
