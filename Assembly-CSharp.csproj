@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scenes\Space Shooter Template FREE\Scripts\PlayerShooting.cs" />
+    <Compile Include="Assets\EnemyHealth.cs" />
     <Compile Include="Assets\Scenes\Space Shooter Template FREE\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scenes\Space Shooter Template FREE\Scripts\PoolingController.cs" />
     <Compile Include="Assets\Scenes\Space Shooter Template FREE\Scripts\Player.cs" />
