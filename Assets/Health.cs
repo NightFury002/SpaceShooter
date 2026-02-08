@@ -3,12 +3,14 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     public GameObject explosionPrefab;
-    public void OnTriggerEnter2D(Collider2D collision) => Die();
+    public int defaultHealthPoint;
+    private int healthPoint;
 
-    protected virtual void Die()
+    private void Start() => healthPoint = defaultHealthPoint;
+    public void TakeDamage(int damage)
     {
-        var explosion = Instantiate(explosionPrefab, transform.position, transform.rotation);
-        Destroy(explosion, 1);
-        Destroy(gameObject);
+        if (healthPoint <= 0) return;
+        healthPoint -= damage;
+        if (healthPoint <= 0) Die();
     }
 }
