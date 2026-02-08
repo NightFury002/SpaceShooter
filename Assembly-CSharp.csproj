@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scenes\Space Shooter Template FREE\Scripts\Boundary.cs" />
     <Compile Include="Assets\Scenes\Space Shooter Template FREE\Scripts\FollowThePath.cs" />
     <Compile Include="Assets\Scenes\Space Shooter Template FREE\Scripts\VisualEffect.cs" />
+    <Compile Include="Assets\PlayerHealth.cs" />
     <Compile Include="Assets\Scenes\Space Shooter Template FREE\Scripts\PlayerMoving.cs" />
     <Compile Include="Assets\Scenes\Space Shooter Template FREE\Scripts\RepeatingBackground.cs" />
     <Compile Include="Assets\Scenes\Space Shooter Template FREE\Scripts\Wave.cs" />
